@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+$fontType1: 'Lato', sans-serif;
+$fontType2: 'Pacifico', cursive;
+
+@mixin fontFamily($fontType1,$weight1) {
+  font-family: $fontType1, sans-serif;
+  font-weight: $weight1;
+}
+
+@mixin fontFamily($fontType2,$weight2) {
+  font-family: $fontType2, sans-serif;
+  font-weight: $weight2;
+}
